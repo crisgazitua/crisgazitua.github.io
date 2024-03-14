@@ -4,6 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Page</title>
+    <style>
+        /* Estilos para la tabla */
+        table {
+            border-collapse: collapse;
+            width: 50%;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid #dddddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        /* Estilos para los niveles de habilidad */
+        .advance {
+            color: rgb(20, 158, 20);
+        }
+        .basic {
+            color: blue;
+        }
+        .none {
+            color: rgb(53, 52, 52);
+        }
+        .medium {
+            color: rgb(252, 165, 4);
+        }
+        .native {
+            color: red;
+        }
+    </style>
 </head>
 <body>
     <div>
@@ -16,47 +48,47 @@
         </ul>
         <a href="https://github.com/crisgazitua/crisgazitua.github.io">Link Repositorio Github</a>
     </div>
-    <div><h3>Skills Table</h2></div>
+    <div><h3>Skills Table</h3></div>
     <table>
         <tr>
-          <td>Skill</td>
-          <td>Level</td>
+          <th>SKILL</th>
+          <th>LEVEL</th>
         </tr>
         <tr>
           <td>Python</td>
-          <td>Advance</td>
+          <td class="advance">Advance</td>
         </tr>
         <tr>
             <td>JavaScript</td>
-            <td>Basic</td>
+            <td class="basic">Basic</td>
           </tr>
           <tr>
             <td>HTML/CSS</td>
-            <td>None</td>
+            <td class="none">None</td>
           </tr>
           <tr>
             <td>Git</td>
-            <td>Basic</td>
+            <td class="basic">Basic</td>
           </tr>
           <tr>
             <td>Excel</td>
-            <td>Advance</td>
+            <td class="advance">Advance</td>
           </tr>
           <tr>
             <td>SQL</td>
-            <td>Advance</td>
+            <td class="advance">Advance</td>
           </tr>
           <tr>
             <td>Ruby</td>
-            <td>None</td>
+            <td class="none">None</td>
           </tr>
           <tr>
             <td>English</td>
-            <td>Medium</td>
+            <td class="medium">Medium</td>
           </tr>
           <tr>
             <td>Spanish</td>
-            <td>Native</td>
+            <td class="native">Native</td>
           </tr>
       </table>
 </body>
