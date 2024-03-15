@@ -5,16 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Page</title>
     <style>
+        h1 {
+          text-align: center;
+        }
+        h3 {
+          text-align: center;
+        }
         table {
             border-collapse: collapse;
             width: 50%;
+            margin: 0 auto;
             margin-bottom: 20px;
             background-color: #9bb4b0;
         }
         th, td {
-            border: 1px solid #030303;
-            padding: 8px;
-            text-align: left;
+            border: 5px solid #030303;
+            padding: 10px;
+            text-align: center;
         }
         th {
             background-color: #f2f2f2;
@@ -29,7 +36,7 @@
             color: rgb(9, 245, 245);
         }
         .medium {
-            color: orange;
+            color: rgb(156, 103, 3);
         }
         .native {
             color: red;
@@ -37,15 +44,22 @@
         body {
             background-color: #9ee05f;
         }
+        input[type="text"] {
+            width: 15%; 
+            padding: 10px; 
+            box-sizing: border-box; 
+        }
         .button {
             display: inline-block;
-            padding: 10px 20px;
-            background-color: #007bff; 
+            padding: 12px 20px;
+            background-color: #006cfa; 
             color: #080505; 
             text-decoration: none;
             border: none;
             border-radius: 5px;
             cursor: pointer;
+            margin-top: 40px;
+            margin-bottom: 30px;
         }
         .button:hover {
             background-color: #0056b3; 
@@ -55,13 +69,18 @@
 <body>
     <div>
         <h1>Cristóbal Gazitúa Valenzuela</h1>
+
         <h2>About Me</h2>
         <ul>
-            <li>Ingenieria en Ciencas de la Computacion</li>
+            <li>Computer Science</li>
             <li>2019</li>
-            <li>Personal sumary</li>
+            <li>Hello, my name is Cristobal, I am 23 years old, and I consider myself an empathetic, positive, and cheerful person. 
+              Throughout my academic career, I have been able to learn several useful tools to develop myself in the field of engineering. 
+              While I don't excel in any particular area, I consider myself always willing to learn new things when needed. 
+              I believe that where I could excel the most is in SQL and Python, at least for now</li>
         </ul>
-        <a href="https://github.com/crisgazitua/crisgazitua.github.io">¡Link Github!</a>
+
+        <a href="https://github.com/crisgazitua/crisgazitua.github.io">¡LINK GITHUB!</a>
     </div>
     <div><h3>Skills Table</h3></div>
     <table>
@@ -87,7 +106,7 @@
           </tr>
           <tr>
             <td>Excel</td>
-            <td class="advance">Advance</td>
+            <td class="basic">Basic</td>
           </tr>
           <tr>
             <td>SQL</td>
@@ -107,13 +126,13 @@
           </tr>
       </table>
     </ul>
-    <input type="text" id="inputText" placeholder="Ingresa tu texto">
-    <button class="button" onclick="cambiarTexto()">Actualizar Sección</button>
-    <div id="seccionCambiante">
+    <input type="text" id="inputText" placeholder="Insert text">
+    <button class="button" onclick="cambiarTexto()">Update section</button>
+    <div id="UpdateSection">
       <script>
         function cambiarTexto() {
             var nuevoTexto = document.getElementById("inputText").value;
-            document.getElementById("seccionCambiante").innerText = nuevoTexto;
+            document.getElementById("UpdateSection").innerText = nuevoTexto;
         }
     </script>
 </body>
