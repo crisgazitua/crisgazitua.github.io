@@ -37,6 +37,19 @@
         body {
             background-color: #9ee05f;
         }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff; 
+            color: #080505; 
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .button:hover {
+            background-color: #0056b3; 
+        }
     </style>
 </head>
 <body>
@@ -48,7 +61,7 @@
             <li>2019</li>
             <li>Personal sumary</li>
         </ul>
-        <a href="https://github.com/crisgazitua/crisgazitua.github.io">Link Repositorio Github</a>
+        <a href="https://github.com/crisgazitua/crisgazitua.github.io">¡Link Github!</a>
     </div>
     <div><h3>Skills Table</h3></div>
     <table>
@@ -93,5 +106,15 @@
             <td class="native">Native</td>
           </tr>
       </table>
+    </ul>
+    <input type="text" id="inputText" placeholder="Ingresa tu texto">
+    <button class="button" onclick="cambiarTexto()">Actualizar Sección</button>
+    <div id="seccionCambiante">
+      <script>
+        function cambiarTexto() {
+            var nuevoTexto = document.getElementById("inputText").value;
+            document.getElementById("seccionCambiante").innerText = nuevoTexto;
+        }
+    </script>
 </body>
 </html>
