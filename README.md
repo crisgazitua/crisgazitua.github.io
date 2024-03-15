@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Lab 1
 
 ## Creation of a Personal Page on GitHub Pages
@@ -68,3 +69,6 @@ Design a personal page that contains relevant information about you:
 ### Submission
 
 Upload the repository link with the webpage link to Canvas.
+=======
+
+>>>>>>> 2be08131348ef3881f635239490523ba63dca83c
