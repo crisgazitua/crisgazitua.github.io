@@ -1,72 +1,13 @@
-# Lab 1
+# Web Technologies - Lab 02
 
-## Creation of a Personal Page on GitHub Pages
-
-In this evaluation, you will be asked to create a personal page on GitHub Pages. Follow the detailed instructions below to complete the task.
-
-## Pre-Instructions
-
-### Creating the Page on GitHub Pages
-
-1. In the upper-right corner of any page, select , then click New repository (**crete a public repository**)
-  ![repo-create-global-nav-update](repo-create-global-nav-update.webp)
-2. Enter username.github.io as the repository name. Replace username with your GitHub username. For example, if your username is octocat, the repository name should be octocat.github.io.
-  ![create-repository-name-pages](create-repository-name-pages.webp)
-
-3. Under your repository name, click  Settings. If you cannot see the "Settings" tab, select the  dropdown menu, then click Settings.
-![repo-actions-settings](repo-actions-settings.webp)
-4. In the "Code and automation" section of the sidebar, click  Pages.
-
-5. Under "Build and deployment", under "Source", select Deploy from a branch, select main branch.
-
-6. Under "Build and deployment", under "Branch", use the branch dropdown menu and select a publishing source, select root
-![config](config.png)
-
-> https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site
-
-### Clone Repository
-
-First, clone the repository to your computer and create a blank index.html file to start the laboratory.
+In this session you are going to work on the website you created las week and improve it using [Bootstrap](https://getbootstrap.com/).
 
 ## Instructions
 
-### Creation of a Personal Page
+1. Work on the repository you created last week.
+2. Edit the website you created last week and implement Bootstrap on it to achieve a responsive user interface. To do so, you have to implement at least [responsive containers](https://getbootstrap.com/docs/5.3/layout/containers/#responsive-containers) as well as [columns](https://getbootstrap.com/docs/5.3/layout/columns/) for the layout. In designing your site keep in mind that the users that are going to visit it will be using different screen sizes. At least make sure that screen sizes smaller than 768 pixels and smaller than 1200 pixels fit the layout correctly.
+3. Pick at least 3 [components](https://getbootstrap.com/docs/5.3/components/) from the ones available and implement them in your site.
 
-Design a personal page that contains relevant information about you:
+## Submission
 
-- Name
-- Major
-- Year of University Enrollment
-- Link to your Github
-- Personal summary
-- A table showing the skills you possess and your level of expertise, for example:
-
-| Skill          | Level  |
-|--------------------|--------|
-| Python             | Expert |
-| JavaScript         | Basic |
-| HTML/CSS           | Basic |
-| Git                | Basic |
-| Excel              | Advance |
-| SQL                | Expert |
-| Ruby               | Basic |
-| English            | Advance |
-| Spanish            | Native |
-
-## Requirements
-
-- Ensure all required information is included as per the instructions.
-- Use HTML tags to properly structure your page.
-- Change the font type throughout the page.
-- Use classes to apply styles to your page.
-  - At a minimum, changes in color, background, and styles in the table are expected.
-- Create a button and a text input field where, upon pressing the button, a section of the page (other than the one requested in the instructions) changes with the value entered in the text field.
-- The tag for a button is `<button>`
-- The tag for a text input field is `<input type="text">`
-  - For more information on how the input works, refer to [link](https://www.w3schools.com/tags/tag_input.asp)
-
-### Submission
-
-Upload the repository link with the webpage link to Canvas.
-=======
-
+Upload the repository link to Canvas.
