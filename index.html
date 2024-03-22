@@ -80,9 +80,18 @@
           <td class="native">Native</td>
         </tr>
     </table>
-    <input type="text" id="inputText" placeholder="Please text">
-        <button class="button" onclick="cambiarTexto()">Feedback!</button>
-        <div id="seccionCambiante">
+    <div class="Forms">
+      <div class="comment-box">
+          <h2>Leave me your comments about the page!</h2>
+          <textarea id="comment-text" placeholder="Please let me know your opinion..." required></textarea>
+          <button id="submit-comment">Send comment</button>
+      </div>
+      <div id="comments-container">
+          <h4>Comments Section</h4>
+          <div id="comments-section">
+          </div>
+      </div>
+    </div>
 
     <script src="script.js"></script> 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

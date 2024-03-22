@@ -1,15 +1,15 @@
 .bg-color {
-    background-color: #eddd07; 
+    background-color: #dfd32c; 
 }
 
 
 .name {
-    background-color: #f30aef; /* Color de fondo del recuadro */
-    padding: 20px; /* Relleno interno para el contenido */
-    border: 2px solid #00050a; /* Borde sólido con color */
-    border-radius: 0px; /* Bordes redondeados */
-    text-align: center; /* Alineación del texto al centro */
-    margin-bottom: 20px; /* Margen inferior para separación */
+    background-color: #be1abb; 
+    padding: 20px; 
+    border: 2px solid #00050a; 
+    border-radius: 0px; 
+    text-align: center; 
+    margin-bottom: 20px; 
 }
 
 .title {
@@ -88,7 +88,38 @@ input[type="text"] {
 }
 
 .button:hover {
-    background-color: #0056b3; 
+    background-color: #a905f5; 
 }
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.comment-box {
+    margin-bottom: 20px;
+}
+
+#comment-text {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#submit-comment {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#submit-comment:hover {
+    background-color: #0056b3;
+}
+
 
 
