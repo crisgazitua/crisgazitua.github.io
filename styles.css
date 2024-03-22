@@ -138,10 +138,11 @@ input[type="text"] {
 }
 
 p {
-    width: auto; 
+    width: 90%; 
+    max-width: auto;
     height: auto; 
-    padding: auto; 
+    padding: 30px;
+    margin: 0 auto 20px auto; 
     box-sizing: border-box;
-    margin-bottom: 20px; 
 }
 
